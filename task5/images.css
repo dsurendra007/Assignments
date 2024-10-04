@@ -1,0 +1,16 @@
+.card {
+    border-radius: 0.5rem; 
+    padding: 1.5rem;
+    width: 16rem; 
+    color: white; 
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+.red-card {
+    background: linear-gradient(to right, #c62828 20%, #000000 50%, #388e3c 80%);
+}
+
+.green-card {
+    background: linear-gradient(to right, #c62828 20%, #000000 50%, #388e3c 80%);
+}

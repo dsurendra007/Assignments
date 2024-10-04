@@ -1,0 +1,52 @@
+/* Container for all cards */
+.allcontainers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Container for rows of cards */
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for individual cards */
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: gray;
+}
+
+/* Button styling */
+.card button {
+    background: radial-gradient(circle, red, black);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.card button:hover {
+    background-color: #007acc;
+}
+
+/* Text in the card */
+.card p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
